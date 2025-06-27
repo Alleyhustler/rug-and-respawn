@@ -1,0 +1,1531 @@
+<html>
+
+<!-- Mirrored from lazybones.neocities.org/phone by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Jun 2025 14:17:06 GMT -->
+<head>
+<meta charset="UTF-8">
+
+<meta name="credit" content="base by weiman, instagram base by minna, cameraroll taken from templatesss and updated with hover by tentacool, everything else and updated to iOS 11 by morley">
+
+
+<title>phone</title>
+<link rel="shortcut icon" href="https://imgur.com/zkgCrD3">
+
+<link href='https://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+<style type="text/css">
+/* ---- GENERAL ---- */
+
+p {
+    text-indent: 10px;
+}
+
+body {
+  background-image: url(../st2.depositphotos.com/3469789/8241/i/950/depositphotos_82410310-stock-photo-seamless-paper-texture.jpg);  
+  overflow: hidden;
+    
+}
+
+#container {
+  width: 450px;
+  height: 500;
+  margin: 0 auto;
+  margin-top: 30px;
+  background: transparent;
+}
+
+#s-m-t-tooltip {
+  max-width:200px;
+  padding:3px 5px;
+  margin:5px 0px 0px 5px;
+  background-color: rgba(250, 250, 250, 0.8);
+  font-family: helvetica, sans-serif;
+  font-size:8pt;
+  font-weight:light;
+  letter-spacing:+1px;
+  text-transform:uppercase;
+  text-align: justify;
+  color:#000;
+  z-index:999999999999999999;
+  -moz-box-shadow: 1px 2px 1px rgba(0,0,0,.1);
+  -webkit-box-shadow: 1px 2px 1px rgba(0,0,0,.1);
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(192, 192, 192, 1);
+}
+
+html, a, a:hover {
+  cursor:url(https://imgur.com/ONVDMqu), default;
+}
+
+#options {
+  float: left;
+  margin-top:150;
+  height:610;
+  width:130;
+}
+
+#telephone {
+  float: right;
+  height:610;
+  overflow: hidden;
+  width:292;
+}
+
+.icons {
+  width:50;
+  padding:5px;
+}
+
+
+
+/*
+WHITE PHONE - https://i.imgur.com/zWl7dfF.png
+BLACK PHONE - https://i.imgur.com/ko1Eftl.png
+REPLACE LINK BELOW WITH LINK YOU WANT
+*/
+.phone {
+  background: url(https://imgur.com/zWl7dfF) no-repeat;
+  width: 292;
+  height: 610;
+  overflow: hidden;
+}
+
+
+/*
+THIS IS THE INSIDE OF YOUR PHONE SCREEN
+THIS CAN BE ANY IMAGE YOU WANT RESIZED TO 256x465
+*/
+#inside {
+  background: url(iphonefotos/iphonewallpaper.jpg) no-repeat;
+  display: inline-block;
+  position: absolute;
+  visibility:visible;
+  margin-left:18px;
+  top:101px;
+  overflow:hidden;
+  z-index:-2;
+  width:256px;
+  height:465px;
+  }
+  
+  textarea {
+  outline: none;
+  resize: none;
+  }
+
+.a, .b, .c, .d, .e, .f, .g, .h {
+  width: 253;
+  height: 462;
+  margin: 0;
+  padding: 1px;
+  display: none;
+  overflow: hidden;
+  background-color: #000;
+  margin: 71 0 0 176;
+  position: fixed;
+  
+}
+
+
+/* ---- VOICEMAIL ---- */
+.vmcontent {
+  width: 256;
+  height: 345;
+  overflow: auto;
+  margin: 0;
+  padding:2px;
+  background-color: #fff;
+  font-family: helvetica, arial, sans serif;
+  font-size:12px;
+  line-height:14px;
+  text-transform:none;
+  text-align:left;
+}
+
+.vmheader {
+  margin: 0;
+  height: 65;
+  width: 254;
+  padding:3px;
+  background-color: #f2f2f4;
+  font-family: helvetica, arial, sans serif;
+  font-size:12px;
+  font-weight:bold;
+  text-align: center;
+  text-transform: none;
+  border-bottom:1px solid #ccc;  
+}
+
+.vmsender {
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
+  height:30;
+}
+
+.vmfrom {
+  padding-left:5;
+  padding-right:5;
+  font-size:13px;
+  color: #000;
+  float: left;
+  font-weight:bold;
+}
+
+.vmstats {
+  padding-left:5;
+  padding-right:5;
+  padding-bottom:5;
+  font-size:12px;
+  color: #8f8e94;
+  float: left;
+}
+
+.vminfo {
+  float: right;
+  margin-top:-15px;
+}
+
+.vmplay {
+  padding:5px;
+  height:15;
+  margin-top:0px;
+  font-size:11px;
+  margin-bottom:10px;
+  color:#8f8e94;
+}
+
+.vmbuttons {
+  padding-left:10;
+  padding-right:15;
+  font-size:12px;
+  font-weight: none;
+  text-align:center;
+  margin-bottom:10px;  
+}
+
+.vmbreak {
+  margin-left: auto;
+  margin-right: auto;
+  height: 1px;
+  width: 85%;
+  background-color: #ececec;
+}
+
+.vmtranscript {
+  padding:10px;
+  padding-top:10px;
+  color:#8f8e94;
+}
+
+.vmbottom {
+  height:36px;
+  width:256px;
+  background:#F1F1F3;
+  padding-top:5px;
+  border-top:1px solid #ccc;
+  margin: 0;
+}
+
+
+/* ---- NOTES ---- */
+.notesheader {
+  height: 25;
+  width: 256;
+  padding-top: 5px;
+  background-color: #f7f7f7;
+  font-family: helvetica, arial, sans serif;
+  font-size:12px;
+  font-weight:bold;
+  text-transform:;
+  color: #e4af0a;
+}
+
+.notescontent {
+  width: 234;
+  height: 407;
+  padding-left:10px;
+  padding-right:10px;
+  overflow: auto;
+  background-color: #f7f7f7;
+  font-family: helvetica, arial, sans serif;
+  color: #454545;
+  font-size:12px;
+  font-weight:normal;
+  line-height:14px;
+  text-transform:none;
+  text-align:left;
+}
+
+.notesbottom {
+  height:25px;
+  background:#222326;
+  text-align:center;
+  margin:0;
+}
+
+/* ---- MUSIC (UPDATED 25/07/16) ---- */
+.musicheader {
+  margin: 0;
+  height: 55;
+  width: 248px;
+  padding:3px;
+  background-color: #181818;
+  color:#fff;
+  font-family: arial, roboto;
+  font-size:12px;
+  font-weight:bold;
+  text-align:center;
+  text-transform: none;  
+}
+.musiccontent {
+  width: 254;
+  height: 350px;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  background-color: #181818;
+  font-family: helvetica, arial, sans serif;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: none;
+  text-align: left;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+}
+a {color: #fff; text-decoration: none;
+}
+  
+.musictitle {
+  padding-left:5;
+  background-color: #181818;
+  color: #fff;
+  font-family: arial;
+  font-size:13px;
+  text-transform: none;
+}
+.musicbottom {
+  height:55px;
+  width:248px;
+  padding:3px;
+  color: #fff;
+  font-family:arial;
+  font-size:12px;
+  background:#222326;
+  text-align:center;
+  border-top:1px solid #888;
+  margin: 0;
+}
+
+/* ---- INSTAGRAM (ADDED 25/07/16) ---- */
+.instacontent {
+  width: 258;
+  height: 400;
+  overflow: auto;
+  margin: 0;
+  padding:2px;
+  background-color: #fff;
+  font-family: helvetica, arial, sans serif;
+  font-size:12px;
+  line-height:14px;
+  text-transform:none;
+  text-align:left;
+}
+
+.instaheader {
+  margin: 0;
+  height: 25;
+  width: 250;
+  padding:3px;
+  background-color: #FAFAFA;
+  font-family: grand hotel;
+  font-size:20px;
+  font-weight:bold;
+  text-align: center;
+  text-transform: none;
+  border-bottom:1px solid #ccc;  
+}
+
+.instauser {
+  height: 25;
+  padding-left: 10px;
+  width: 225;
+  background-color: #fff;
+  font-family: roboto;
+  font-size: 11px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.instapic {
+  margin: 0;
+  padding-bottom: 5px;
+  overflow: none;
+}
+
+.instabar {
+  padding-right: 3px;
+  border-bottom: 1px solid #ccc;
+  overflow: none;
+}
+
+.instafriends{
+  width: 235;
+  padding-left: 10px;
+  padding-top: 6px;
+  font-weight: bold;
+  text-transform: lowercase;
+  font-family: roboto;
+  font-size: 11px;
+  overflow: none; !important
+ 
+}
+
+.instacaption{
+  width: 235;
+  padding-left: 10px;
+  padding-top: 5px;
+  font-family: roboto;
+  font-size: 11px;
+  overflow: none; !important
+
+}
+
+.instacomment{
+  width: 235;
+  padding-left: 10px;
+  padding-top: 5px;
+  font-family: roboto;
+  font-size: 11px;
+  overflow: none; !important
+}
+
+.instatime{
+  width: 235;
+  padding-left: 10px;
+  color: #ccc;
+  font-size: 8px;
+  font-family: roboto;
+  overflow: none; !important
+}
+
+.instafooter {
+  height:30px;
+  width:258px;
+  background:#f7f7f7;
+  padding-top:0px;
+  border-top:1px solid #ccc;
+  margin: 0;
+}
+
+/* ---- TEXT ---- */
+.textcontent {
+  width: 250;
+  height: 361;
+  overflow: auto;
+  margin: 0;
+  padding:2px;
+  background-color: #fff;
+  font-family: helvetica, arial, sans serif;
+  font-size:12px;
+  line-height:14px;
+  text-transform:none;
+  text-align:left;
+}
+
+.textfrom {
+  margin:10px 20px 10px 10px;
+  width:80%;
+  padding-left:4px;
+  background:url('https://imgur.com/bCM6Iww')bottom left no-repeat;
+}
+
+.textfrom2 {
+  background:#E5E5EA;
+  padding:5px;
+  -webkit-border-radius:15px;
+  border-radius:15px;
+}
+
+.textto {
+  margin:10px 10px 10px 40px;
+  width:80%;
+  padding-right:4px;
+  background:url('https://imgur.com/TvzLmoA')bottom right no-repeat;
+}
+
+.textto2 {
+  background:#00A7FF;
+  color: #ffffff;
+  padding:5px;
+  -webkit-border-radius:15px;
+  border-radius:15px;
+}
+
+.imgfrom {margin:10px 20px 10px 10px;}
+
+.imgto {margin:10px 10px 10px 90px;}
+
+.textheader {
+  margin: 0;
+  height: 50;
+  width: 248;
+  padding:3px;
+  background-color: #f9f9f9;
+  font-family: helvetica, arial, sans serif;
+  font-size:12px;
+  font-weight:;
+  text-align:center;
+  text-transform: none;
+  border-bottom:1px solid #ccc;  
+}
+
+.textbottom {
+  height:35px;
+  width:254px;
+  background:#fff;
+  padding-top:5px;
+  border-top:1px solid #ccc;
+  margin: 0;
+}
+
+.textcompose {
+  font-family: helvetica,arial,sans-serif;
+  font-size:12px;
+  line-height:20px;
+  width:165px;
+  height:25px;
+  margin-left:5px;
+  padding-left:5px;
+  border:none;
+  -webkit-border-radius:7px;
+  border-radius:10px;
+  -webkit-box-shadow:inset 0 0 3px 1px #bbb;
+  box-shadow:inset 0 0 3px 1px #bbb;
+}
+
+.textbutton {
+  float:left;
+  width:45px;
+  background:;
+  text-align:center;
+  font-size: 11px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-top:5px;
+  height:25px;
+  line-height:25px;
+  -webkit-border-radius:5px;
+  border-radius:5px;
+  font-weight:bold;
+  letter-spacing:1px;
+  color:#fff;
+  text-shadow:1px 1px 0 #444;
+  font-family: helvetica, arial, sans serif;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+/* ---- CAMERAROLL ---- */
+
+.cameraheader {
+  margin: 0;
+  height: 35px;
+  width: 252px;
+  padding:3px;
+  background-color: #f2f2f4;
+  font-family: helvetica neue, roboto;
+  font-size:12px;
+  font-weight:bold;
+  text-align:center;
+  text-transform: none;
+  border-bottom: 1px solid #ccc;  
+}
+
+.cameracontent {
+  width: 252px;
+  height: 378px;
+  overflow: auto;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 1px;
+  padding-top: 6px;
+  background-color: #fff;
+  text-transform:none;
+  font-family: helvetica neue, roboto;
+  font-size: 12px;
+  text-align:left;
+  position: relative;
+}
+
+.camerabottom {
+  margin: 0;
+  height: 30px;
+  width: 252px;
+  padding:3px;
+  background-color: #f2f2f4;
+  font-family: helvetica neue, roboto;
+  font-size:9px;
+  font-weight:normal;
+  text-align:left;
+  text-transform: none;
+  color: #ccc;
+  border-top: 1px solid #ccc;
+}
+
+.zoom {
+  transition: transform .6s; /* Animation */
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(2.0); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+#statuscafe-username {
+      font color: #8f8e94;
+      :link { color: #8f8e94; }
+:visited { color: #8f8e94; }
+}
+
+</style>
+
+
+<!-- THIS IS THE SCRIPT FOR A FANCY HOVER -->
+    <script src="../ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    <script src="../static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
+    <script>
+    (function($){
+    $(document).ready(function(){
+    $("a[title]").style_my_tooltips({
+    tip_follows_cursor:true,
+    tip_delay_time:90,
+    tip_fade_speed:600,
+    attribute:"title"
+    });
+    });
+    })(jQuery);
+    </script>
+
+<!-- THIS IS THE SCRIPT FOR YOUR BOXES APPEARING AND HIDING; MAKE SURE TO EDIT THIS ACCORDING TO HOW MANY LINKS/BOXES YOU NEED -->
+<script src="../code.jquery.com/jquery-1.10.0.min.js">
+</script>
+<script>
+$(document).ready(function(){
+  $(".one").click(function(){
+    $(".a").toggle();
+    $(".b,.c,.d,.e,.f,.g,.h").hide();
+  });
+  $(".two").click(function(){
+    $(".b").toggle();
+    $(".a,.c,.d,.e,.f,.g,.h").hide();
+  });
+  $(".three").click(function(){
+    $(".c").toggle();
+    $(".d,.e,.f,.g,.h,.a,.b").hide();
+  });
+  $(".four").click(function(){
+    $(".d").toggle();
+    $(".e,.f,.g,.h,.a,.b,.c").hide();
+  }); 
+  $(".five").click(function(){
+    $(".e").toggle();
+    $(".f,.g,.h,.a,.b,.c,.d").hide();
+  });   
+  $(".six").click(function(){
+    $(".f").toggle();
+    $(".e,.d,.g,.h,.a,.b,.c").hide();
+  }); 
+  $(".seven").click(function(){
+    $(".g").toggle();
+    $(".e,.d,.f,.h,.a,.b,.c").hide();
+  }); 
+  $(".eight").click(function(){
+    $(".h").toggle();
+    $(".e,.f,.g,.d,.a,.b,.c").hide();
+  });    
+});
+</script>
+
+</head>
+
+<body>
+<div id="container">
+<div id="options">
+    
+    <!--
+    THESE ARE YOUR SIDE ICONS TO ADD MORE JUST C/P 
+    MORE LINES AND CHANGE THE NUMBER CLASSES UP TO 
+    EIGHT WHEN C/PING THE DIV CLASS INFO BELOW USE 
+    THE CORRESPONDING LETTER ONE-A TWO-B THREE-C ETC 
+    -->
+    
+<a href="#" class="one"  title="notes"><img src="https://imgur.com/G8nnT7X" class="icons"></a>
+<a href="#" class="two" title="voicemail"><img src="https://imgur.com/NIZfEAi" class="icons"></a>
+<a href="#" class="three" title="text messages"><img src="https://imgur.com/k66T2ZW" class="icons"></a>
+<a href="#" class="four" title="instagram"><img src="https://imgur.com/HhJIwpb" class="icons"></a>
+<a href="#" class="five" title="spotify"><img src="https://imgur.com/cqcQEeG" class="icons"></a>
+<a href="#" class="six" title="camera roll"><img src="https://imgur.com/hUThws9" class="icons"></a>
+<BR>
+</div>
+
+<div id="telephone">
+<div class="phone"></div>
+<div id="inside"></div>
+</div>
+  
+<!--SECTION-->
+<div class="a">
+<div class="notesheader">
+<div style="float:left; padding-left: 5px;"><img src="https://imgur.com/BydvA4W" width="10" align="left">Notes</div>
+<div style="float:right;"><img src="https://imgur.com/rbuquCf" width="40" align="right" style="padding-right:15px;"></div></div>
+<div class="notescontent"><center><small><font color=#aeaeae>June 27, 2024 at 8:32 AM</font></small></center><br>
+<b>TRUISMS (1978-1983)</b><br><br>
+JENNY HOLZER<br>
+<br>
+<br>
+A LITTLE KNOWLEDGE CAN GO A LONG WAY<br>
+<br>
+A LOT OF PROFESSIONALS ARE CRACKPOTS<br>
+<br>
+A MAN CAN'T KNOW WHAT IT IS TO BE A MOTHER<br>
+<br>
+A NAME MEANS A LOT JUST BY ITSELF<br>
+<br>
+A POSITIVE ATTITUDE MEANS ALL THE DIFFERENCE IN THE WORLD<br>
+<br>
+A RELAXED MAN IS NOT NECESSARILY A BETTER MAN<br>
+<br>
+A SENSE OF TIMING IS THE MARK OF GENIUS<br>
+<br>
+A SINCERE EFFORT IS ALL YOU CAN ASK<br>
+<br>
+A SINGLE EVENT CAN HAVE INFINITELY MANY INTERPRETATIONS<br>
+<br>
+A SOLID HOME BASE BUILDS A SENSE OF SELF<br>
+<br>
+A STRONG SENSE OF DUTY IMPRISONS YOU<br>
+<br>
+ABSOLUTE SUBMISSION CAN BE A FORM OF FREEDOM<br>
+<br>
+ABSTRACTION IS A TYPE OF DECADENCE<br>
+<br>
+ABUSE OF POWER COMES AS NO SURPRISE<br>
+<br>
+ACTION CAUSES MORE TROUBLE THAN THOUGHT<br>
+<br>
+ALIENATION PRODUCES ECCENTRICS OR REVOLUTIONARIES<br>
+<br>
+ALL THINGS ARE DELICATELY INTERCONNECTED<br>
+<br>
+AMBITION IS JUST AS DANGEROUS AS COMPLACENCY<br>
+<br>
+AMBIVALENCE CAN RUIN YOUR LIFE<br>
+<br>
+AN ELITE IS INEVITABLE<br>
+<br>
+ANGER OR HATE CAN BE A USEFUL MOTIVATING FORCE<br>
+<br>
+ANIMALISM IS PERFECTLY HEALTHY<br>
+<br>
+ANY SURPLUS IS IMMORAL<br>
+<br>
+ANYTHING IS A LEGITIMATE AREA OF INVESTIGATION<br>
+<br>
+ARTIFICIAL DESIRES ARE DESPOILING THE EARTH<br>
+<br>
+AT TIMES INACTIVITY IS PREFERABLE TO MINDLESS FUNCTIONING<br>
+<br>
+AT TIMES YOUR UNCONSCIOUSNESS IS TRUER THAN YOUR CONSCIOUS MIND<br>
+<br>
+AUTOMATION IS DEADLY<br>
+<br>
+AWFUL PUNISHMENT AWAITS REALLY BAD PEOPLE<br>
+<br>
+BAD INTENTIONS CAN YIELD GOOD RESULTS<br>
+<br>
+BEING ALONE WITH YOURSELF IS INCREASINGLY UNPOPULAR<br>
+<br>
+BEING HAPPY IS MORE IMPORTANT THAN ANYTHING ELSE<br>
+<br>
+BEING JUDGMENTAL IS A SIGN OF LIFE<br>
+<br>
+BEING SURE OF YOURSELF MEANS YOU'RE A FOOL<br>
+<br>
+BELIEVING IN REBIRTH IS THE SAME AS ADMITTING DEFEAT<br>
+<br>
+BOREDOM MAKES YOU DO CRAZY THINGS<br>
+<br>
+CALM IS MORE CONDUCTIVE TO CREATIVITY THAN IS ANXIETY<br>
+<br>
+CATEGORIZING FEAR IS CALMING<br>
+<br>
+CHANGE IS VALUABLE WHEN THE OPPRESSED BECOME TYRANTS<br>
+<br>
+CHASING THE NEW IS DANGEROUS TO SOCIETY<br>
+<br>
+CHILDREN ARE THE MOST CRUEL OF ALL<br>
+<br>
+CHILDREN ARE THE HOPE OF THE FUTURE<br>
+<br>
+CLASS ACTION IS A NICE IDEA WITH NO SUBSTANCE<br>
+<br>
+CLASS STRUCTURE IS AS ARTIFICIAL AS PLASTIC<br>
+<br>
+CONFUSING YOURSELF IS A WAY TO STAY HONEST<br>
+<br>
+CRIME AGAINST PROPERTY IS RELATIVELY UNIMPORTANT<br>
+<br>
+DECADENCE CAN BE AN END IN ITSELF<br>
+<br>
+DECENCY IS A RELATIVE THING<br>
+<br>
+DEPENDENCE CAN BE A MEAL TICKET<br>
+<br>
+DESCRIPTION IS MORE IMPORTANT THAN METAPHOR<br>
+<br>
+DEVIANTS ARE SACRIFICED TO INCREASE GROUP SOLIDARITY<br>
+<br>
+DISGUST IS THE APPROPRIATE RESPONSE TO MOST SITUATIONS<br>
+<br>
+DISORGANIZATION IS A KIND OF ANESTHESIA<br>
+<br>
+DON'T PLACE TO MUCH TRUST IN EXPERTS<br>
+<br>
+DRAMA OFTEN OBSCURES THE REAL ISSUES<br>
+<br>
+DREAMING WHILE AWAKE IS A FRIGHTENING CONTRADICTION<br>
+<br>
+DYING AND COMING BACK GIVES YOU CONSIDERABLE PERSPECTIVE<br>
+<br>
+DYING SHOULD BE AS EASY AS FALLING OFF A LOG<br>
+<br>
+EATING TOO MUCH IS CRIMINAL<br>
+<br>
+ELABORATION IS A FORM OF POLLUTION<br>
+<br>
+EMOTIONAL RESPONSES AR AS VALUABLE AS INTELLECTUAL RESPONSES<br>
+<br>
+ENJOY YOURSELF BECAUSE YOU CAN'T CHANGE ANYTHING ANYWAY<br>
+<br>
+ENSURE THAT YOUR LIFE STAYS IN FLUX<br>
+<br>
+EVEN YOUR FAMILY CAN BETRAY YOU<br>
+<br>
+EVERY ACHIEVEMENT REQUIRES A SACRIFICE<br>
+<br>
+EVERYONE'S WORK IS EQUALLY IMPORTANT<br>
+<br>
+EVERYTHING THAT'S INTERESTING IS NEW<br>
+<br>
+EXCEPTIONAL PEOPLE DESERVE SPECIAL CONCESSIONS<br>
+<br>
+EXPIRING FOR LOVE IS BEAUTIFUL BUT STUPID<br>
+<br>
+EXPRESSING ANGER IS NECESSARY<br>
+<br>
+EXTREME BEHAVIOR HAS ITS BASIS IN PATHOLOGICAL PSYCHOLOGY<br>
+<br>
+EXTREME SELF-CONSCIOUSNESS LEADS TO PERVERSION<br>
+<br>
+FAITHFULNESS IS A SOCIAL NOT A BIOLOGICAL LAW<br>
+<br>
+FAKE OR REAL INDIFFERENCE IS A POWERFUL PERSONAL WEAPON<br>
+<br>
+FATHERS OFTEN USE TOO MUCH FORCE<br>
+<br>
+FEAR IS THE GREATEST INCAPACITATOR<br>
+<br>
+FREEDOM IS A LUXURY NOT A NECESSITY<br>
+<br>
+GIVING FREE REIN TO YOUR EMOTIONS IS AN HONEST WAY TO LIVE<br>
+<br>
+GO ALL OUT IN ROMANCE AND LET THE CHIPS FALL WHERE THEY MAY<br>
+<br>
+GOING WITH THE FLOW IS SOOTHING BUT RISKY<br>
+<br>
+GOOD DEEDS EVENTUALLY ARE REWARDED<br>
+<br>
+GOVERNMENT IS A BURDEN ON THE PEOPLE<br>
+<br>
+GRASS ROOTS AGITATION IS THE ONLY HOPE<br>
+<br>
+GUILT AND SELF-LACERATION ARE INDULGENCES<br>
+<br>
+HABITUAL CONTEMPT DOESN'T REFLECT A FINER SENSIBILITY<br>
+<br>
+HIDING YOUR EMOTIONS IS DESPICABLE<br>
+<br>
+HOLDING BACK PROTECTS YOUR VITAL ENERGIES<br>
+<br>
+HUMANISM IS OBSOLETE<br>
+<br>
+HUMOR IS A RELEASE<br>
+<br>
+IDEALS ARE REPLACED BY CONVENTIONAL GOALS AT A CERTAIN AGE<br>
+<br>
+IF YOU AREN'T POLITICAL YOUR PERSONAL LIFE SHOULD BE EXEMPLARY<br>
+<br>
+IF YOU CAN'T LEAVE YOUR MARK GIVE UP<br>
+<br>
+IF YOU HAVE MANY DESIRES YOUR LIFE WILL BE INTERESTING<br>
+<br>
+IF YOU LIVE SIMPLY THERE IS NOTHING TO WORRY ABOUT<br>
+<br>
+IGNORING ENEMIES IS THE BEST WAY TO FIGHT<br>
+<br>
+ILLNESS IS A STATE OF MIND<br>
+<br>
+IMPOSING ORDER IS MAN'S VOCATION FOR CHAOS IS HELL<br>
+<br>
+IN SOME INSTANCES IT'S BETTER TO DIE THAN TO CONTINUE<br>
+<br>
+INHERITANCE MUST BE ABOLISHED<br>
+<br>
+IT CAN BE HELPFUL TO KEEP GOING NO MATTER WHAT<br>
+<br>
+IT IS HEROIC TO TRY TO STOP TIME<br>
+<br>
+IT IS MAN'S FATE TO OUTSMART HIMSELF<br>
+<br>
+IT IS A GIFT TO THE WORLD NOT TO HAVE BABIES<br>
+<br>
+IT'S BETTER TO BE A GOOD PERSON THAN A FAMOUS PERSON<br>
+<br>
+IT'S BETTER TO BE LONELY THAN TO BE WITH INFERIOR PEOPLE<br>
+<br>
+IT'S BETTER TO BE NAIVE THAN JADED<br>
+<br>
+IT'S BETTER TO STUDY THE LIVING FACT THAN TO ANALYZE HISTORY<br>
+<br>
+IT'S CRUCIAL TO HAVE AN ACTIVE FANTASY LIFE<br>
+<br>
+IT'S GOOD TO GIVE EXTRA MONEY TO CHARITY<br>
+<br>
+IT'S IMPORTANT TO STAY CLEAN ON ALL LEVELS<br>
+<br>
+IT'S JUST AN ACCIDENT THAT YOUR PARENTS ARE YOUR PARENTS<br>
+<br>
+IT'S NOT GOOD TO HOLD TOO MANY ABSOLUTES<br>
+<br>
+IT'S NOT GOOD TO OPERATE ON CREDIT<br>
+<br>
+IT'S VITAL TO LIVE IN HARMONY WITH NATURE<br>
+<br>
+JUST BELIEVING SOMETHING CAN MAKE IT HAPPEN<br>
+<br>
+KEEP SOMETHING IN RESERVE FOR EMERGENCIES<br>
+<br>
+KILLING IS UNAVOIDABLE BUT NOTHING TO BE PROUD OF<br>
+<br>
+KNOWING YOURSELF LETS YOU UNDERSTAND OTHERS<br>
+<br>
+KNOWLEDGE SHOULD BE ADVANCED AT ALL COSTS<br>
+<br>
+LABOR IS A LIFE-DESTROYING ACTIVITY<br>
+<br>
+LACK OF CHARISMA CAN BE FATAL<br>
+<br>
+LEISURE TIME IS A GIGANTIC SMOKE SCREEN<br>
+<br>
+LISTEN WHEN YOUR BODY TALKS<br>
+<br>
+LOOKING BACK IS THE FIRST SIGN OF AGING AND DECAY<br>
+<br>
+LOVING ANIMALS IS A SUBSTITUTE ACTIVITY<br>
+<br>
+LOW EXPECTATIONS ARE GOOD PROTECTION<br>
+<br>
+MANUAL LABOR CAN BE REFRESHING AND WHOLESOME<br>
+<br>
+MEN ARE NOT MONOGAMOUS BY NATURE<br>
+<br>
+MODERATION KILLS THE SPIRIT<br>
+<br>
+MONEY CREATES TASTE<br>
+<br>
+MONOMANIA IS A PREREQUISITE OF SUCCESS<br>
+<br>
+MORALS ARE FOR LITTLE PEOPLE<br>
+<br>
+MOST PEOPLE ARE NOT FIT TO RULE THEMSELVES<br>
+<br>
+MOSTLY YOU SHOULD MIND YOUR OWN BUSINESS<br>
+<br>
+MOTHERS SHOULDN'T MAKE TOO MANY SACRIFICES<br>
+<br>
+MUCH WAS DECIDED BEFORE YOU WERE BORN<br>
+<br>
+MURDER HAS ITS SEXUAL SIDE<br>
+<br>
+MYTH CAN MAKE REALITY MORE INTELLIGIBLE<br>
+<br>
+NOISE CAN BE HOSTILE<br>
+<br>
+NOTHING UPSETS THE BALANCE OF GOOD AND EVIL<br>
+<br>
+OCCASIONALLY PRINCIPLES ARE MORE VALUABLE THAN PEOPLE<br>
+<br>
+OFFER VERY LITTLE INFORMATION ABOUT YOURSELF<br>
+<br>
+OFTEN YOU SHOULD ACT LIKE YOU ARE SEXLESS<br>
+<br>
+OLD FRIENDS ARE BETTER LEFT IN THE PAST<br>
+<br>
+OPACITY IS AN IRRESISTIBLE CHALLENGE<br>
+<br>
+PAIN CAN BE A VERY POSITIVE THING<br>
+<br>
+PEOPLE ARE BORING UNLESS THEY ARE EXTREMISTS<br>
+<br>
+PEOPLE ARE NUTS IF THEY THINK THEY ARE IMPORTANT<br>
+<br>
+PEOPLE ARE RESPONSIBLE FOR WHAT THEY DO UNLESS THEY ARE INSANE<br>
+<br>
+PEOPLE WHO DON'T WORK WITH THEIR HANDS ARE PARASITES<br>
+<br>
+PEOPLE WHO GO CRAZY ARE TOO SENSITIVE<br>
+<br>
+PEOPLE WON'T BEHAVE IF THEY HAVE NOTHING TO LOSE<br>
+<br>
+PHYSICAL CULTURE IS SECOND BEST<br>
+<br>
+PLANNING FOR THE FUTURE IS ESCAPISM<br>
+<br>
+PLAYING IT SAFE CAN CAUSE A LOT OF DAMAGE IN THE LONG RUN<br>
+<br>
+POLITICS IS USED FOR PERSONAL GAIN<br>
+<br>
+POTENTIAL COUNTS FOR NOTHING UNTIL IT'S REALIZED<br>
+<br>
+PRIVATE PROPERTY CREATED CRIME<br>
+<br>
+PURSUING PLEASURE FOR THE SAKE OF PLEASURE WILL RUIN YOU<br>
+<br>
+PUSH YOURSELF TO THE LIMIT AS OFTEN AS POSSIBLE<br>
+<br>
+RAISE BOYS AND GIRLS THE SAME WAY<br>
+<br>
+RANDOM MATING IS GOOD FOR DEBUNKING SEX MYTHS<br>
+<br>
+RECHANNELING DESTRUCTIVE IMPULSES IS A SIGN OF MATURITY<br>
+<br>
+RECLUSES ALWAYS GET WEAK<br>
+<br>
+REDISTRIBUTING WEALTH IS IMPERATIVE<br>
+<br>
+RELATIVITY IS NO BOON TO MANKIND<br>
+<br>
+RELIGION CAUSES AS MANY PROBLEMS AS IT SOLVES<br>
+<br>
+REMEMBER YOU ALWAYS HAVE FREEDOM OF CHOICE<br>
+<br>
+REPETITION IS THE BEST WAY TO LEARN<br>
+<br>
+RESOLUTIONS SERVE TO EASE OUR CONSCIENCE<br>
+<br>
+REVOLUTION BEGINS WITH CHANGES IN THE INDIVIDUAL<br>
+<br>
+ROMANTIC LOVE WAS INVENTED TO MANIPULATE WOMEN<br>
+<br>
+ROUTINE IS A LINK WITH THE PAST<br>
+<br>
+ROUTINE SMALL EXCESSES ARE WORSE THAN THEN THE OCCASIONAL DEBAUCH<br>
+<br>
+SACRIFICING YOURSELF FOR A BAD CAUSE IS NOT A MORAL ACT<br>
+<br>
+SALVATION CAN'T BE BOUGHT AND SOLD<br>
+<br>
+SELF-AWARENESS CAN BE CRIPPLING<br>
+<br>
+SELF-CONTEMPT CAN DO MORE HARM THAN GOOD<br>
+<br>
+SELFISHNESS IS THE MOST BASIC MOTIVATION<br>
+<br>
+SELFLESSNESS IS THE HIGHEST ACHIEVEMENT<br>
+<br>
+SEPARATISM IS THE WAY TO A NEW BEGINNING<br>
+<br>
+SEX DIFFERENCES ARE HERE TO STAY<br>
+<br>
+SIN IS A MEANS OF SOCIAL CONTROL<br>
+<br>
+SLIPPING INTO MADNESS IS GOOD FOR THE SAKE OF COMPARISON<br>
+<br>
+SLOPPY THINKING GETS WORSE OVER TIME<br>
+<br>
+SOLITUDE IS ENRICHING<br>
+<br>
+SOMETIMES SCIENCE ADVANCES FASTER THAN IT SHOULD<br>
+<br>
+SOMETIMES THINGS SEEM TO HAPPEN OF THEIR OWN ACCORD<br>
+<br>
+SPENDING TOO MUCH TIME ON SELF-IMPROVEMENT IS ANTISOCIAL<br>
+<br>
+STARVATION IS NATURE'S WAY<br>
+<br>
+STASIS IS A DREAM STATE<br>
+<br>
+STERILIZATION IS A WEAPON OF THE RULERS<br>
+<br>
+STRONG EMOTIONAL ATTACHMENT STEMS FROM BASIC INSECURITY<br>
+<br>
+STUPID PEOPLE SHOULDN'T BREED<br>
+<br>
+SURVIVAL OF THE FITTEST APPLIES TO MEN AND ANIMALS<br>
+<br>
+SYMBOLS ARE MORE MEANINGFUL THAN THINGS THEMSELVES<br>
+<br>
+TAKING A STRONG STAND PUBLICIZES THE OPPOSITE POSITION<br>
+<br>
+TALKING IS USED TO HIDE ONE'S INABILITY TO ACT<br>
+<br>
+TEASING PEOPLE SEXUALLY CAN HAVE UGLY CONSEQUENCES<br>
+<br>
+TECHNOLOGY WILL MAKE OR BREAK US<br>
+<br>
+THE CRUELEST DISAPPOINTMENT IS WHEN YOU LET YOURSELF DOWN<br>
+<br>
+THE DESIRE TO REPRODUCE IS A DEATH WISH<br>
+<br>
+THE FAMILY IS LIVING ON BORROWED TIME<br>
+<br>
+THE IDEA OF REVOLUTION IS AN ADOLESCENT FANTASY<br>
+<br>
+THE IDEA OF TRANSCENDENCE IS USED TO OBSCURE OPPRESSION<br>
+<br>
+THE IDIOSYNCRATIC HAS LOST ITS AUTHORITY<br>
+<br>
+THE MOST PROFOUND THINGS ARE INEXPRESSIBLE<br>
+<br>
+THE MUNDANE IS TO BE CHERISHED<br>
+<br>
+THE NEW IS NOTHING BUT A RESTATEMENT OF THE OLD<br>
+<br>
+THE ONLY WAY TO BE PURE IS TO STAY BY YOURSELF<br>
+<br>
+THE SUM OF YOUR ACTIONS DETERMINES WHAT YOU ARE<br>
+<br>
+THE UNATTAINABLE IS INVARIABLE ATTRACTIVE<br>
+<br>
+THE WORLD OPERATES ACCORDING TO DISCOVERABLE LAWS<br>
+<br>
+THERE ARE TOO FEW IMMUTABLE TRUTHS TODAY<br>
+<br>
+THERE'S NOTHING EXCEPT WHAT YOU SENSE<br>
+<br>
+THERE'S NOTHING REDEEMING IN TOIL<br>
+<br>
+THINKING TOO MUCH CAN ONLY CAUSE PROBLEMS<br>
+<br>
+THREATENING SOMEONE SEXUALLY IS A HORRIBLE ACT<br>
+<br>
+TIMIDITY IS LAUGHABLE<br>
+<br>
+TO DISAGREE PRESUPPOSES MORAL INTEGRITY<br>
+<br>
+TO VOLUNTEER IS REACTIONARY<br>
+<br>
+TORTURE IS BARBARIC<br>
+<br>
+TRADING A LIFE FOR A LIFE IS FAIR ENOUGH<br>
+<br>
+TRUE FREEDOM IS FRIGHTFUL<br>
+<br>
+UNIQUE THINGS MUST BE THE MOST VALUABLE<br>
+<br>
+UNQUESTIONING LOVE DEMONSTRATES LARGESSE OF SPIRIT<br>
+<br>
+USING FORCE TO STOP FORCE IS ABSURD<br>
+<br>
+VIOLENCE IS PERMISSIBLE EVEN DESIRABLE OCCASIONALLY<br>
+<br>
+WAR IS A PURIFICATION RITE<br>
+<br>
+WE MUST MAKE SACRIFICES TO MAINTAIN OUR QUALITY OF LIFE<br>
+<br>
+WHEN SOMETHING TERRIBLE HAPPENS PEOPLE WAKE UP<br>
+<br>
+WISHING THINGS AWAY IS NOT EFFECTIVE<br>
+<br>
+WITH PERSEVERANCE YOU CAN DISCOVER ANY TRUTH<br>
+<br>
+WORDS TEND TO BE INADEQUATE<br>
+<br>
+WORRYING CAN HELP YOU PREPARE<br>
+<br>
+YOU ARE A VICTIM OF THE RULES YOU LIVE BY<br>
+<br>
+YOU ARE GUILELESS IN YOUR DREAMS<br>
+<br>
+YOU ARE RESPONSIBLE FOR CONSTITUTING THE MEANING OF THINGS<br>
+<br>
+YOU ARE THE PAST PRESENT AND FUTURE<br>
+<br>
+YOU CAN LIVE ON THROUGH YOUR DESCENDANTS<br>
+<br>
+YOU CAN'T EXPECT PEOPLE TO BE SOMETHING THEY'RE NOT<br>
+<br>
+YOU CAN'T FOOL OTHERS IF YOU'RE FOOLING YOURSELF<br>
+<br>
+YOU DON'T KNOW WHAT'S WHAT UNTIL YOU SUPPORT YOURSELF<br>
+<br>
+YOU HAVE TO HURT OTHERS TO BE EXTRAORDINARY<br>
+<br>
+YOU MUST BE INTIMATE WITH A TOKEN FEW<br>
+<br>
+YOU MUST DISAGREE WITH AUTHORITY FIGURES<br>
+<br>
+YOU MUST HAVE ONE GRAND PASSION<br>
+<br>
+YOU MUST KNOW WHERE YOU STOP AND THE WORLD BEGINS<br>
+<br>
+YOU CAN UNDERSTAND SOMEONE OF YOUR SEX ONLY<br>
+<br>
+YOU OWE THE WORLD NOT THE OTHER WAY AROUND<br>
+<br>
+YOU SHOULD STUDY AS MUCH AS POSSIBLE<br>
+<br>
+YOUR ACTIONS ARE POINTLESS IF NO ONE NOTICES<br>
+<br>
+YOUR OLDEST FEARS ARE THE WORST ONES
+</div>
+<div class="notesbottom"><img src="https://imgur.com/zE93rqN" width="256"></div>
+</div>
+<!--/SECTION-->
+
+<!--SECTION-->
+<div class="b">
+<div class="vmheader">
+<div style="float:left; margin-left:10px;">
+<font style="color:#ccc; font-weight:normal;">Greeting</font>
+</div>
+<div style="float:right; margin-right: 10px;"><font style="color:#ccc; font-weight:normal;">Edit</font>
+</div>
+<br><br>
+<div style="float:left; margin-left:10px;">
+<font style="font-size:25px;">Voicemail</font></div>
+</div>
+<div class="vmcontent">
+<div class="vmsender">
+<div class="vmfrom">Status Cafe</div>
+<br>
+<div class="vmstats">
+
+  
+    <div id='feed-reader'></div>
+    <script>
+      const feedURL = 'https://status.cafe/users/lazybones.atom';
+
+      fetch(feedURL)
+        .then(response => response.text())
+        .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
+        .then(data => {
+          const entries = data.querySelectorAll("entry");
+          let html = ``;
+
+          entries.forEach(el => {
+            let title = el.querySelector("title").innerHTML.slice(0, 12).trim();
+            let content = el.querySelector("content").textContent.trim();
+            let dateString = el.querySelector("published").innerHTML.slice(0,10);
+            html += `
+              <br>${title} - ${dateString}
+              <br>${content}<br><br>
+<div class="vmbreak"></div>
+
+
+              `;
+             
+            
+          })
+          document.getElementById("feed-reader").innerHTML = html;
+        })
+    </script>  
+  
+<br>
+
+</div>
+
+<div class="vminfo"><img src="https://imgur.com/jeCINSJ" width=45></div>
+</div>
+<br>
+<div class="vmtranscript">
+<a href="https://status.cafe/users/lazybones">log</a>
+</div>
+
+<div class="vmplay">
+<img src="https://imgur.com/vVeCKU7" width="245">
+<div style="float:left; margin-top:-10px; margin-left:20px; position: absolute; z-index: 1;">0:00</div><div style="float:right; margin-top:-10px; margin-left:210px; position:absolute; z-index:2;">-0:22</div>
+</div>
+<div class="vmbuttons">
+<div style="float:left;"><font style="color:#007aff;">Speaker</font></div><font style="color:#007aff;">Call Back</font><div style="float:right;"><font style="color:#ff3a31;">Delete</font></div>
+</div>
+<div class="vmbreak"></div>
+</div>
+
+<div class="vmbottom"><img src="https://imgur.com/EW7yRj3" width=256></div>
+
+
+
+</div>
+<!--/SECTION-->
+
+<!--SECTION-->
+<div class="c">
+<div class="textheader">
+
+<div style="float:left; margin-right:10px;">
+<img src="https://imgur.com/uhIJvnw" align=left></div>
+<img class="img-circle" src="deadjournal/AIicon.jpg" width="30">
+<div style="float:right;"><img src="https://imgur.com/T2hdNX4" align=right></div>
+<div style="center; margin-top:2px;">neocities</div>
+</div>
+
+<div class="textcontent">
+<iframe src="https://www3.cbox.ws/box/?boxid=3512210&amp;boxtag=5zMH4k" width="100%" height="100%" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>	
+
+
+</div>
+<div class="textbottom">
+<div class="textbutton"><img src="https://imgur.com/VQqiBgI"></div>
+</div></div>
+<!--/SECTION-->
+
+<!--SECTION-->
+<div class="d">
+<div class="instaheader">
+<div style="float:left; margin-right:-5px;">
+<img src="https://imgur.com/JytozMg" height="15" style="padding-top: 6px; padding-left: 5px;" align="left">
+</div>
+<font style="color:#000;">Instagram</font>
+<div style="float:right;"><img src="https://imgur.com/qACjKUj" height="15" style="padding-top: 6px; padding-right: 5px;" align="right">
+</div>
+</div>
+<div class="instacontent">
+
+<!--instagram post-->
+<div class="instauser"><img src="deadjournal/AIicon.jpg" height="25" style="-webkit-border-radius:100px;" align="left"><div style="padding-left:8px; padding-top:7px;"><b>lazybones</b></div></div>
+<div class="instapic"><img src="fauxfb/pic1.gif" width="250"></div> 
+<div class="instabar"><img src="https://imgur.com/juQ8vK8" height="18" style="padding-bottom: 7px;"></div>
+<div class="instafriends">liked by <b>doggient, atmoic_spork, rockangel86</b> and 1452 others</div>
+<div class="instacaption"><b>lazybones</b> what happened <font color="#125688">#nature #viral</font></div>
+<div class="instacomment"><font color="#ccc">View all 742 comments</font><br>
+<b>shyeyes2006</b> a small mercy lies ahead, what with the future yet to come <br>
+<b>pmpbtch101</b> sixty-four says hello<br>
+</div>
+<div class="instatime">3 MINUTES AGO</div>
+<!--/instagram post-->
+
+<!--instagram post-->
+<div class="instauser"><img src="deadjournal/AIicon.jpg" height="25" style="-webkit-border-radius:100px;" align="left"><div style="padding-left:8px; padding-top:7px;"><b>lazybones</b></div></div>
+<div class="instapic"><img src="fauxfb/pic2.gif" width="250"></div> 
+<div class="instabar"><img src="https://imgur.com/juQ8vK8" height="18" style="padding-bottom: 7px;"></div>
+<div class="instafriends">224 likes</div>
+<div class="instacaption"><b>lazybones</b> another day has its world rocked by trees (or rocks)</div>
+<div class="instacomment"> <font color="#ccc">View all 32 comments</font><br>
+<b>sum_plan</b> a flailing monkey tests the thesis that your theorem would unleash<br>
+<b>shay23</b> <b><font color="#125688">@lawnmower_elf</font></b> A setback of the heart loves a good joke! <br>
+</div>
+<div class="instatime">2 HOURS AGO</div>        
+<!--/instagram post-->
+
+<!--instagram post-->
+<div class="instauser"><img src="deadjournal/AIicon.jpg" height="25" style="-webkit-border-radius:100px;" align="left"><div style="padding-left:8px; padding-top:7px;"><b>lazybones</b></div></div>
+<div class="instapic"><img src="fauxfb/pic3.gif" width="250"></div> 
+<div class="instabar"><img src="https://imgur.com/juQ8vK8" height="18" style="padding-bottom: 7px;"></div>
+<div class="instafriends">liked by <b>shyeyes2006, pmpbtch101, sum_plan</b> and 65 others</div>
+<div class="instacaption"><b>lazybones</b> A classical composition likes to take a walk in the park.</div>
+<div class="instacomment"><font color="#ccc">View all 76 comments</font><br>
+<b>sum_plan</b> A sound you heard sickens me.<br>
+<b>shyeyes2006</b> Lucky number slevin sat down once more.<br>
+</div>
+<div class="instatime">6373 MINUTES AGO</div>
+<!--/instagram post-->
+
+<!--instagram post-->
+<div class="instauser"><img src="deadjournal/AIicon.jpg" height="25" style="-webkit-border-radius:100px;" align="left"><div style="padding-left:8px; padding-top:7px;"><b>lazybones</b></div></div>
+<div class="instapic"><img src="fauxfb/pic4.gif" width="250"></div> 
+<div class="instabar"><img src="https://imgur.com/juQ8vK8" height="18" style="padding-bottom: 7px;"></div>
+<div class="instafriends">6 likes</div>
+<div class="instacaption"><b>lazybones</b> A sickingly prodigous profile loves to love.</div>
+<div class="instacomment"> <font color="#ccc">View all 486 comments</font><br>
+<b>peterl90</b> woof<br>
+<b>migioto</b> lol<br>
+</div>
+<div class="instatime">7 WEEKS AGO</div>        
+<!--/instagram post-->
+
+<!--instagram post-->
+<div class="instauser"><img src="deadjournal/AIicon.jpg" height="25" style="-webkit-border-radius:100px;" align="left"><div style="padding-left:8px; padding-top:7px;"><b>lazybones</b></div></div>
+<div class="instapic"><img src="fauxfb/pic5.gif" width="250"></div> 
+<div class="instabar"><img src="https://imgur.com/juQ8vK8" height="18" style="padding-bottom: 7px;"></div>
+<div class="instafriends">liked by <b>babephat, koolep, above7zine</b> and 56 others</div>
+<div class="instacaption"><b>lazybones</b>  As the rental car rolled to a stop on the dark road, her fear increased by the moment.</div>
+<div class="instacomment"><font color="#ccc">View all 39 comments</font><br>
+<b>aprillsen</b> So long and thanks for the fish. <br>
+<b>studchik</b> The blinking lights of the antenna tower came into focus just as I heard a loud snap.<br>
+</div>
+<div class="instatime">281 DAYS AGO</div>
+<!--/instagram post-->
+
+<!--instagram post-->
+<div class="instauser"><img src="deadjournal/AIicon.jpg" height="25" style="-webkit-border-radius:100px;" align="left"><div style="padding-left:8px; padding-top:7px;"><b>lazybones</b></div></div>
+<div class="instapic"><img src="fauxfb/pic6.gif" width="250"></div> 
+<div class="instabar"><img src="https://imgur.com/juQ8vK8" height="18" style="padding-bottom: 7px;"></div>
+<div class="instafriends">6755 likes</div>
+<div class="instacaption"><b>lazybones</b> Utter nonsense is not enough. </div>
+<div class="instacomment"> <font color="#ccc">View all 56 comments</font><br>
+<b>peedails</b> Enqoyism ever stuns the onlooker. <br>
+<b>upself83</b> Rock music set a treehouse on fire. <br>
+</div>
+<div class="instatime">345 DAYS AGO</div>        
+<!--/instagram post-->
+
+<!--instagram post-->
+<div class="instauser"><img src="deadjournal/AIicon.jpg" height="25" style="-webkit-border-radius:100px;" align="left"><div style="padding-left:8px; padding-top:7px;"><b>lazybones</b></div></div>
+<div class="instapic"><img src="fauxfb/pic7.gif" width="250"></div> 
+<div class="instabar"><img src="https://imgur.com/juQ8vK8" height="18" style="padding-bottom: 7px;"></div>
+<div class="instafriends">liked by <b>iamlabs, ianshag, broodin25</b> and 67 others</div>
+<div class="instacaption"><b>lazybones</b> Tomorrow rains heavily. <font color="#125688">#ootd #ditl</font></div>
+<div class="instacomment"><font color="#ccc">View all 56 comments</font><br>
+<b>dressytale3</b> A late night tests the thesis that your theorem would unleash. <br>
+<b>proz3</b> Nihilism tenderly sees to her child. <br>
+</div>
+<div class="instatime">2 MONTHS AGO</div>
+<!--/instagram post-->
+
+<!--instagram post-->
+<div class="instauser"><img src="deadjournal/AIicon.jpg" height="25" style="-webkit-border-radius:100px;" align="left"><div style="padding-left:8px; padding-top:7px;"><b>lazybones</b></div></div>
+<div class="instapic"><img src="fauxfb/pic8.gif" width="250"></div> 
+<div class="instabar"><img src="https://imgur.com/juQ8vK8" height="18" style="padding-bottom: 7px;"></div>
+<div class="instafriends">7654 likes</div>
+<div class="instacaption"><b>lazybones</b> Stupidity is Finer than frog hair </div>
+<div class="instacomment"> <font color="#ccc">View all 256 comments</font><br>
+<b>everparis</b> Passion or serendipity is a storyteller without equal. <br>
+<b>p0dtrill2</b> Stew and rum sat down once more.  <br>
+</div>
+<div class="instatime">4 MONTHS AGO</div>        
+<!--/instagram post-->
+
+<!--instagram post-->
+<div class="instauser"><img src="deadjournal/AIicon.jpg" height="25" style="-webkit-border-radius:100px;" align="left"><div style="padding-left:8px; padding-top:7px;"><b>lazybones</b></div></div>
+<div class="instapic"><img src="fauxfb/pic9.gif" width="250"></div> 
+<div class="instabar"><img src="https://imgur.com/juQ8vK8" height="18" style="padding-bottom: 7px;"></div>
+<div class="instafriends">liked by <b>frogramp, gutzlyz, animetown</b> and 142 others</div>
+<div class="instacaption"><b>lazybones</b> Organisational culture wanted the TRUTH! </div>
+<div class="instacomment"><font color="#ccc">View all 423 comments</font><br>
+<b>mcdard</b> Passion or serendipity is a storyteller without equal.  <br>
+<b>gossipkaptain</b> Style could please even the most demanding follower of Freud. <br>
+</div>
+<div class="instatime">8 YEARS AGO</div>
+<!--/instagram post-->
+
+
+
+</div>
+<div class="instafooter"><img src="https://imgur.com/p2JoN5g" height="30" style="padding-bottom: 11px;"></div>
+</div>
+<!--/SECTION-->
+
+<!--SECTION-->
+<div class="e">
+<div class="musicheader">
+<div style="float:left; margin-right:-5px;">
+<img src="https://imgur.com/7x9nadi" width=10 align=left style="padding-top: 11px;">
+</div>
+Alyce's Playlist
+<div style="float:right;"><img src="https://imgur.com/8vV6Q4J" align=right style="padding-top: 11px; padding-right: 5px;"></div>
+<br>
+<center><a href="https://www.last.fm/user/milktooth22" target="_blank"><img src="https://imgur.com/VoKkbzm" width="190"></a></center>
+</div>
+<div class="musiccontent">
+<div class="musictitle">
+
+<a href="https://www.last.fm/user/milktooth22"><img src="https://lastfm-recently-played.vercel.app/api?user=milktooth22&amp;t={{current_timestamp}}" height="auto" width="auto"/></a>
+
+
+</div></div>
+<div class="musicbottom">
+<div style="float:left; margin-right:-5px;"><img src="https://imgur.com/3LNstzo" width="15" align="left" style="padding-top:5px;"></div>
+<center>Alyce's • <font color="#888">playlist</font>
+<div style="float:right;"><a href="https://www.youtube.com/playlist?list=PLofht4PTcKYnaH8w5olJCI-wUVxuoMHqM" target="_blank"><img src="https://imgur.com/eVWS1Gy" width="20" align=right style="padding-right: 5px;"></a></div>
+<img src="https://imgur.com/MxAd2eM" width="248">
+</center></div>
+</div>
+<!--/SECTION-->
+
+<!--SECTION-->
+<div class="f">
+<div class="cameraheader">
+<div style="float:left; margin-right:-5px;">
+<img src="https://imgur.com/nj9rM4t" width="11" align="left" style="margin-top: 11px;"> <font style="color:#0072ff; font-weight:normal; position: relative; top: 12px;">Albums</font>
+</div>
+
+<font style="font-family: roboto;font-size: 12px;font-weight: bolder;margin-left: 2px;position: relative;top: 11px;">All Photos</font>
+
+<div style="float:right; margin-right: 5px; position: relative;top: 12px; padding-right:10px;">
+<font style="color:#0072ff; font-weight:normal;">Select</font>
+</div>
+</div>
+
+<div class="cameracontent">
+
+<img src="iphonefotos/1.jpg" class="zoom">
+<img src="iphonefotos/2.jpg" class="zoom">
+<img src="iphonefotos/3.jpg" class="zoom">
+<img src="iphonefotos/4.jpg" class="zoom">
+<img src="iphonefotos/5.jpg" class="zoom">
+<img src="iphonefotos/6.jpg" class="zoom">
+<img src="iphonefotos/7.jpg" class="zoom">
+<img src="iphonefotos/8.jpg" class="zoom">
+<img src="iphonefotos/9.jpg" class="zoom">
+<img src="iphonefotos/10.jpg" class="zoom">
+<img src="iphonefotos/11.jpg" class="zoom">
+<img src="iphonefotos/12.jpg" class="zoom">
+<img src="iphonefotos/13.jpg" class="zoom">
+<img src="iphonefotos/14.jpg" class="zoom">
+<img src="iphonefotos/15.jpg" class="zoom">
+<img src="iphonefotos/16.jpg" class="zoom">
+<img src="iphonefotos/17.jpg" class="zoom">
+<img src="iphonefotos/18.jpg" class="zoom">
+<img src="iphonefotos/19.jpg" class="zoom">
+<img src="iphonefotos/20.jpg" class="zoom">
+<img src="iphonefotos/21.jpg" class="zoom">
+<img src="iphonefotos/22.jpg" class="zoom">
+<img src="iphonefotos/23.jpg" class="zoom">
+<img src="iphonefotos/24.jpg" class="zoom">
+<img src="iphonefotos/25.jpg" class="zoom">
+<img src="iphonefotos/26.jpg" class="zoom">
+<img src="iphonefotos/27.jpg" class="zoom">
+<img src="iphonefotos/28.jpg" class="zoom">
+<img src="iphonefotos/29.jpg" class="zoom">
+<img src="iphonefotos/30.jpg" class="zoom">
+<img src="iphonefotos/31.jpg" class="zoom">
+<img src="iphonefotos/32.jpg" class="zoom">
+
+</div>
+<div class="camerabottom">
+<img src="https://imgur.com/lWoMU1j">
+</div>  
+</div>
+
+<!--/SECTION-->
+
+
+
+</div>
+</body>
+
+<!-- Mirrored from lazybones.neocities.org/phone by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Jun 2025 14:17:57 GMT -->
+</html>

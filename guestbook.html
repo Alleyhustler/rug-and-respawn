@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from lazybones.neocities.org/guestbook by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Jun 2025 14:18:55 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guestbook</title>
+
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+    
+   <style>
+   
+
+
+                 
+    #c_widget {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 15px;
+    overflow: auto;
+background: #a3784f url("") opacity: 60%;
+overflow: hidden
+    font-family: 'Trebuchet MS';
+    font-size: 14px;
+    color: #211F24;
+}
+
+
+#c_widget button, #c_widget input[type=submit] {
+    padding: 4px;
+    text-decoration: none;
+	text-transform: none;
+	text-align: center;
+    background-color: white;
+    color: #433935;
+    border: 1px solid #433935;
+    border-radius: 5px;
+}
+#c_widget button:hover, #c_widget input[type=submit]:hover {
+    background-color: #FB96D8;
+    color: white;
+    border: 1px solid #FB96D8;
+}
+#c_widget button:disabled, #c_widget input[type=submit]:disabled {opacity: 60%;}
+#c_widget button:disabled:hover, #c_widget input[type=submit]:disabled:hover {
+    background-color: white;
+    color: #433935;
+    border: 1px solid #433935;
+}
+
+/* Input section */
+#c_inputDiv {
+    padding: 10px;
+    text-transform: none;
+    background-color: rgba(255, 255, 255, .8);
+    border: 1px dashed #433935;
+    border-radius: 5px;
+}
+#c_container {margin-top: 10px;}
+
+#c_widgetTitle {
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.c-inputWrapper {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.c-input {
+    padding: 4px;
+    color: #5E2C49;
+    border-radius: 4px;
+    border: 1px solid #433935;
+	outline: none;
+}
+.c-input:focus {border: 1px solid #FB96D8;}
+
+.c-textInput {
+    width: calc(100% - 10px);
+    max-width: 900px;
+    resize: none;
+}
+#c_submitButton {display: block;}
+#c_replyingText {color: #5E2C49;}
+
+/* Comment section */
+.c-comment {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, .75);
+    border: 1px dashed #433935;
+    border-radius: 4px;
+}
+.c-reply {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px dashed #433935;
+    border-radius: 4px;
+}
+.c-reply:last-child {margin-bottom: 0;}
+
+.c-name {
+    display: inline-block;
+    margin: 0;
+    margin-right: 10px;
+    padding: 0;
+    text-decoration: underline;
+}
+.c-site {
+    text-transform: none;
+    color: #433935;
+}
+.c-site:hover {color: #211F24;}
+.c-timestamp {
+    float: right;
+    opacity: 60%;
+}
+.c-text {
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    text-align: justify;
+    color: #5E2C49;
+}
+
+/* Pagination */
+#c_pagination {text-align: center;}
+.c-replyButton {margin-top: 10px;}
+.c-expandButton {
+    float: right;
+    margin-top: 10px;
+}
+.c-paginationButton {
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+
+</style>
+  </head>
+    <body style="background: #bgcolor="#a3784f" background="IMAGES/1028.png"; margin-top: -20px;">
+        <div style="width: 794px; margin-left: auto; margin-right: auto; background: none; justify-content: space-around; padding: 0px;">   
+            <div id="c_widget"></div>
+            <script src="guestbook/comment-widget.js"></script>
+        </div>
+    </body>
+
+<!-- Mirrored from lazybones.neocities.org/guestbook by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Jun 2025 14:18:56 GMT -->
+</html>

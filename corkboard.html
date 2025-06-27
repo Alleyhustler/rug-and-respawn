@@ -1,0 +1,337 @@
+<html>
+<title>Post its</title>
+
+<!-- Mirrored from lazybones.neocities.org/corkboard by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Jun 2025 14:16:16 GMT -->
+<head>
+
+<style type="text/css">
+
+html, body {
+  margin:0;
+  padding:0;
+  font-family:sans-serif;
+    background-image:url('../yesterweb.org/img/bb/cork.png');
+    background-repeat: repeat;
+}
+p {
+  padding:20px;
+}
+
+.content {
+  background-image:url('../yesterweb.org/img/bb/cork.png');
+  margin:0 !important;
+  height:auto;
+  padding:20px !important;
+  margin:0 auto;
+}
+.note-one {
+  width:220px;
+  height:350px;
+  margin-left:20px;
+  margin-top:20px;
+  position:relative;
+  background-color: #cbe0c3;
+  background-image:url('../yesterweb.org/img/bb/paper-3.png');
+  overflow:auto;
+}
+.note-one > p {
+  padding-top:30px;
+}
+.note-one-fg {
+  background-color:#fff968;
+  width:150px;
+  height:130px;
+  margin-left:auto;
+  margin-right:auto;
+  left: 0;
+  right: 0;
+  transform:rotate(-5deg);
+  poisition:relative;
+}
+.note-one-fg::before {
+   	 content: "";
+	 position: absolute;
+	 bottom: -1.9em;
+	 right: 0;
+	 border-width: 2em 2em 0 0;
+	 border-style: solid;
+	 border-color: #ddd756 transparent;
+}
+.note-one-fg::after {
+	 content: "";
+	 position: absolute;
+	 bottom: -1.9em;
+	 left: 0;
+	 right: 1.9em;
+	 border-width: 1em;
+	 border-style: solid;
+	 border-color: #fff968;
+}
+.note-two {
+  background-color:#ffbcd9;
+  width:200px;
+  height:230px;
+  margin-top:20px;
+  position:relative;
+  transform:rotate(2deg);
+}
+.note-two::before {
+   content: "";
+	 position: absolute;
+	 bottom: -1.8em;
+	 right: 0;
+	 border-width: 2em 2em 0 0;
+	 border-style: solid;
+	 border-color: #d8a2ab transparent;
+  
+}
+.note-two::after {
+	 content: "";
+	 position: absolute;
+	 bottom: -1.8em;
+	 left: 0;
+	 right: 1.9em;
+	 border-width: 1em;
+	 border-style: solid;
+	 border-color: #ffbcd9;
+}
+.note-two2 {
+  background-color:transparent;
+  width:400px;
+  height:450px;
+  margin-top:1px;
+  position:relative;
+  transform:rotate(2deg);
+}
+
+.note-two3 {
+  background-color:transparent;
+  width:400px;
+  height:450px;
+  margin-top:1px;
+  position:relative;
+  transform:rotate(2deg);
+}
+
+.note-three {
+  background-image:url('../yesterweb.org/img/bb/lined_paper.png');
+  width:300px;
+  height:500px;
+  transform:rotate(-2deg);
+}
+.note-three-top{
+  background-color:#FAFAFA;
+  width:300px;
+  height:40px;
+}
+.note-four4 {
+  background-color:transparent;
+  width:200px;
+  height:350px;
+}
+
+.note-four {
+  background-color:lightyellow;
+  width:200px;
+  height:235px;
+}
+.note-five {
+  position:relative;
+  background-color:white;
+  width:500px;
+  height:500px;
+  background-image:url('../goblin-heart.net/sadgrl/images/bgs/tile/sandy.html');
+}
+.note-five-fg {
+  background-color:#FFF968;
+  width:200px;
+  height:200px;
+  position:absolute;
+  top:0;
+  right:0;
+  transform:rotate(-4deg);
+}
+.row {
+  display:flex;
+  flex-wrap:wrap;
+  margin-bottom:20px;
+  justify-content:space-evenly;
+  align-items:center;
+}
+.row > div {
+  margin-right:30px;
+  margin-bottom:30px;
+}
+.paperclip {
+  max-width:60px;
+  position:absolute;
+  top:-30px;
+  left:50px;
+}
+.blue {
+  background-color:#2D78AD;
+  transform:rotate(-2deg);
+}
+.blue::before {
+   content: "";
+	 position: absolute;
+	 bottom: -1.9em;
+	 right: 0;
+	 border-width: 2em 2em 0 0;
+	 border-style: solid;
+	 border-color: #89b6c4 transparent;
+  
+}
+.blue::after {
+	 content: "";
+	 position: absolute;
+	 bottom: -1.9em;
+	 left: 0;
+	 right: 1.9em;
+	 border-width: 1em;
+	 border-style: solid;
+	 border-color: #2D78AD;
+}
+.tack {
+  width:30px;
+  margin:0 auto;
+  display:block;
+  margin-top:10px;
+}
+.larger {
+  width:70px;
+  margin-left:50px;
+  margin-top:0px;
+}
+.tape {
+  width:110px;
+  margin-top:-20px;
+  margin-left:-20px;
+  transform:rotate(5deg);
+}
+.intro {
+  width:500px;
+  height:100px;
+  text-align:center;
+  background-color:#6d457d;
+  background-image:url('../yesterweb.org/img/bb/starring.png');
+  color:white;
+  transform:rotate(2deg);
+}
+.intro > p {
+  margin:20px;
+  padding:0;
+}
+
+#statuscafe {
+    padding: .5em;
+    background-color: transparent;
+    border: 0px solid midnightblue;
+}
+#statuscafe-username {
+    margin-bottom: .5em;
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+}
+
+
+</style>
+</head>
+
+
+<body>
+
+ <!-- Everything here goes inside of your <body></body> tags! -->
+ <center><img src="MENU/bboardheader.png"></center>
+<div class="content">
+      <div class="row">
+      <div class="note-one"><br>
+        <div class="note-one-fg"><p><br><small>I am feeling </small><a href="https://www.imood.com/users/alyce"><img src="../moods.imood.com/display/uname-alyce/imood.gif" alt="The current mood of alyce at www.imood.com" border="0"></a>
+        <br><br>
+        <small>The internet is feeling</small> <a href="https://www.imood.com/imood"><img src="../moods.imood.com/internet/current.gif"  alt="The current mood of the Internet at www.imood.com" border="0"></a><br><br>
+        </p></div>
+        <br><br><br><br>
+
+<center><a href="https://time.is/United_States" id="time_is_link" rel="nofollow" style="font-size:15px"></a>
+<span id="United_States_z161" style="font-size:25px"></span>
+<script src="../widget.time.is/en.js"></script>
+<script>
+time_is_widget.init({United_States_z161:{template:"DATE", date_format:"dayname<br> monthname dnum, year <br>week"}});
+</script>
+</center>
+
+      </div>
+      
+      
+      
+<div class="note-four4"><p>
+          <table>
+              <tr><td style="text-align: center;"><canvas id="canvas_tt63c2b9cdc2cc4" width="175" height="175"></canvas></td></tr>
+              <tr><td style="text-align: center; font-weight: bold"><a href="http://24timezones.com/time-zone/et" style="text-decoration: none" class="clock24" id="tz24-1673705933-tzest-eyJzaXplIjoiMTc1IiwiYmdjb2xvciI6IkZGRkZGRiIsImxhbmciOiJlbiIsInR5cGUiOiJhIiwiY2FudmFzX2lkIjoiY2FudmFzX3R0NjNjMmI5Y2RjMmNjNCJ9" title="EST timezone" target="_blank" rel="nofollow"></a></td></tr>
+          </table>
+<script type="text/javascript" src="../w.24timezones.com/l.js" async></script>
+</p></div>
+        
+        
+        <div class="note-two"><p><form method="post" action="https://poll.pollcode.com/94292994"><div style="background-color:transparent;padding:2px;width:175px;font-family:Arial;font-size:small;color:#000000;"><div style="padding:2px 0px 4px 2px;"><strong>What is a good pet name?</strong></div><input type="radio" name="answer" value="1" id="answer942929941" style="float:left;" /><label for="answer942929941" style="float:left;width:150px;">Playtime</label><div style="clear:both;height:2px;"></div><input type="radio" name="answer" value="2" id="answer942929942" style="float:left;" /><label for="answer942929942" style="float:left;width:150px;">Charky</label><div style="clear:both;height:2px;"></div><input type="radio" name="answer" value="3" id="answer942929943" style="float:left;" /><label for="answer942929943" style="float:left;width:150px;">Sweet Angel Baby</label><div style="clear:both;height:2px;"></div><input type="radio" name="answer" value="4" id="answer942929944" style="float:left;" /><label for="answer942929944" style="float:left;width:150px;">Ricky</label><div style="clear:both;height:2px;"></div><div align="center" style="padding:3px;"><input type="submit" value=" Vote ">&nbsp;<input type="submit" name="view" value=" View "></div><div align="right" style="font-size:10px">pollcode.com <a href="https://pollcode.com/">free polls</a></div></div></form></p></div>
+        
+        
+        <div class="note-three"><div class="note-three-top"><img class="tack" src="../yesterweb.org/img/bb/thumbtack.png"></div><p>
+        <center><script type="text/javascript" src="../www.brainyquote.com/link/quotebr.js"></script>
+<small><i><a href="quote_of_the_day.html" target="_blank" rel="nofollow">more Quotes</a></i></small>
+<br><br><br>
+<iframe frameBorder="0" frameBorder="0" style="width:300px; height:60px" src="https://kwize.com/quote-of-the-day/embed/&amp;txt=0&amp;font=Courier&amp;color=000000&amp;background=transparent"></iframe><a style="display:block; font-size:12px; color:black;" href="https://kwize.com/quote-of-the-day/">Quote of the day @Kwize</a>
+</center></p></div>
+        
+        
+        <div class="note-four4"><!-------Do not change below this line-------><div align="center"><iframe src="../widget.calendarlabs.com/v1/calendara3fe.html?cid=1002&amp;ver=1.2&amp;uid=9403228802&amp;c=8&amp;l=en&amp;cbg=FFFFFF&amp;cfg=5C0201&amp;hfg=5C0201&amp;hfg1=5C0201&amp;ct=30&amp;cb=0&amp;cbc=5C0201&amp;cf=verdana&amp;cp=bottom&amp;sw=1&amp;hp=t&amp;ib=1&amp;ibc=5C0201&amp;i=images/golden-retriever.jpg" align="center"  width="183" height="373" marginwidth=0 marginheight=0 frameborder=no scrolling=no allowtransparency='true'>Loading...</iframe><div align="center" style="width:140px;font-size:10px;color:#333;">Calendar Widget by <a href="https://www.calendarlabs.com/" target="_blank" rel="nofollow" style="font-size:10px;text-decoration:none;color:#333;">CalendarLabs</a></div></div><!-------Do not change above this line------->  
+</p></div>
+        
+        
+        <div class="note-five"><img class="tack larger" src="../yesterweb.org/img/bb/green-tack.png"><div class="note-five-fg"><img class="paperclip" src="../yesterweb.org/img/bb/paperclip.png"><p>
+        
+<br><br><br><script src="../wordsmith.org/words/word.js"  type="text/javascript" target="_blank"></script>
+
+</p></div>
+
+<p><iframe src="https://www3.cbox.ws/box/?boxid=3512210&amp;boxtag=5zMH4k" width="100%" height="400" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>	
+
+
+</p>
+     </div>
+     
+     
+        <div class="note-two blue"><p>
+        <center><a href="https://clustrmaps.com/site/1buyx" title="Visit tracker"><img src="../clustrmaps.com/map_v200ba.png?d=NhziYkXJpc20PDWCUAeqXaNspXzYTAwYe3nx-3V3IfQ&amp;cl=ffffff"></a>
+</center>
+        </p></div>
+
+      
+        <div class="note-four"><img class="tape" src="../yesterweb.org/img/bb/tape.png"><br><br>
+        
+<!-- © wdisseny --><div id="contain_moon" style="text-align:center;padding-top:3px;padding-bottom:3px;"><div style="font-weight:bold">The moon today</div><div style=""></div><div>.</div><div style="font-size:small">.</div></div><script>(function(){var d=new Date().getDate();var m=document.querySelectorAll("#contain_moon div");var a=new XMLHttpRequest();var url="https://www.icalendar37.net/lunar/api/?lang=en&month="+(new Date().getMonth()+1)+"&year="+(new Date().getFullYear())+"&size=50&lightColor=rgb(245,245,245)&shadeColor=rgb(17,17,17)&t&LDZ="+new Date(new Date().getFullYear(),new Date().getMonth(),1)/1000+"";m[1].style.height="50px";a.onreadystatechange=function(){if(a.readyState==4&&a.status==200){var b=JSON.parse(a.responseText);m[1].innerHTML=b.phase[d].svg;if(typeof moon_widget_loaded=="function")moon_widget_loaded(b);m[2].innerHTML=b.phase[d].npWidget;m[3].innerHTML="Next full moon<br>"+b.nextFullMoon}};a.open("GET.html",url,true);a.send()})()</script>
+
+</p></div>
+
+   
+    <div class="note-two2"><p>
+<iframe width="400" height="450"
+        src="https://embed.windy.com/embed2.html?lat=37.440&amp;lon=-94.219&amp;detailLat=33.715&amp;detailLon=-84.331&amp;width=400&amp;height=450&amp;zoom=3&amp;level=surface&amp;overlay=rain&amp;product=gfs&amp;menu=&amp;message=&amp;marker=&amp;calendar=now&amp;pressure=&amp;type=map&amp;location=coordinates&amp;detail=&amp;metricWind=default&amp;metricTemp=default&amp;radarRange=-1"
+        frameborder="0"></iframe></p>
+        
+              
+               </div>
+
+<script type="text/javascript">
+boatload_puzzles_format = 'Landscape';</script>
+<p>Loading <a href="https://www.boatloadpuzzles.com/playcrossword">
+crossword puzzle</a>. One moment please.</p>
+<script type="text/javascript"
+src="../www.boatloadpuzzles.com/Crossword.js"></script>
+
+               
+</body>
+
+<!-- Mirrored from lazybones.neocities.org/corkboard by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Jun 2025 14:16:27 GMT -->
+</html>
